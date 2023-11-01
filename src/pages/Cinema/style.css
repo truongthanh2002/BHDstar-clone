@@ -1,0 +1,103 @@
+.page--news .list--news {
+  text-align: center;
+}
+
+.cinema--background {
+  position: relative;
+  background: #132028 url(../../assets/images/bg-cinema-10.png) center top
+    repeat;
+  margin-top: 0;
+  padding: 11px;
+  padding-bottom: 30px;
+}
+
+.cinema--background::before {
+  top: 0;
+  height: 740px;
+  background: url(../../assets/images/bg-cinema-top.png) top center;
+}
+
+.cinema--background::after {
+  content: "";
+  bottom: 0;
+  left: 0;
+  height: 350px;
+  position: absolute;
+  width: 100%;
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  background: -moz-linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  background: -o-linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 1) 100%
+  );
+}
+
+.cinema--background .container-cinema {
+  position: relative;
+  z-index: 20;
+}
+
+.about--us-title-title {
+  color: #fff;
+  text-align: center;
+  margin: 30px 0;
+  text-transform: uppercase;
+}
+
+.list--news {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-column-gap: 2.5rem;
+}
+
+li.left::marker {
+  unicode-bidi: isolate;
+  font-variant-numeric: tabular-nums;
+  text-transform: none;
+  text-indent: 0px !important;
+  text-align: start !important;
+  text-align-last: start !important;
+}
+
+.page-wrapper {
+  background: #e8e8e8;
+  padding: 21px 0 127px;
+}
+.container-cinema .like-share {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media only screen and (max-width: 576px) {
+  .list--news {
+    grid-template-columns: 1fr 1fr;
+  }
+  .cinema-listmovie {
+    padding-top: 75vh;
+  }
+  .container-cinema .like-share {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.55rem;
+  }
+  .container-cinema .like-share span {
+    margin: 0;
+  }
+  .container-cinema a.news-title{
+    padding: 0.5rem 0;
+  }
+}

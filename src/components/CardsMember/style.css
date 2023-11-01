@@ -1,0 +1,104 @@
+.img {
+  max-width: 100%;
+  max-height: 100%;
+  height: auto;
+  vertical-align: middle;
+  border: 0;
+}
+
+.section--member .cards-member .card a {
+  text-decoration: none;
+  text-align: center;
+  display: block;
+}
+
+.container {
+  max-width: 1170px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.img-title {
+  padding-bottom: 17px;
+  width: 350px;
+}
+
+.img--card-member {
+  margin-bottom: 26px;
+  max-width: 100%;
+  height: auto;
+}
+
+.cards-member {
+  display: flex;
+  text-align: justify;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.card:first-child {
+  margin-left: 0;
+}
+
+.card {
+  margin: auto 16px;
+  position: relative;
+  z-index: 3;
+  display: inline-block;
+}
+
+.card--holder {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.img--hand {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  z-index: 2;
+  margin-left: -610px;
+  width: 200px;
+}
+
+.img--finger {
+  position: absolute;
+  bottom: 58px;
+  left: 50%;
+  z-index: 10;
+  margin-left: -474px;
+  width: 42px;
+}
+
+.section--member .btn-white {
+  display: block;
+  text-decoration: none;
+  margin: 0 auto;
+  width: 150px;
+  height: 32px;
+  border-radius: 30px;
+  line-height: 32px;
+  font-size: 15px;
+  text-align: center;
+}
+
+.btn-white {
+  color: #89c441;
+  font-weight: 700;
+  text-decoration: none;
+  display: inline-block;
+  background: url(../../assets/images/bg-btn-white.jpg) repeat;
+  transition: 0.4s ease all;
+}
+
+.btn-white:hover {
+  color: #ffffff;
+  background: url(../../assets/images/bg-btn-white-hover.jpg) repeat;
+}

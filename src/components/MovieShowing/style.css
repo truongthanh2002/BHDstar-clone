@@ -1,0 +1,51 @@
+.card {
+  overflow: hidden;
+}
+
+/* the slides */
+.slick-slider {
+  margin: 0 40px;
+}
+
+.slick-slide > div {
+  margin: 0 12px;
+}
+
+/* the parent */
+.slick-list {
+  margin: 0 -12px;
+}
+
+.card-top img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  transition: 0.3s;
+}
+
+.card-top img:hover {
+  transform: scale(1.1);
+}
+
+.slick-arrow {
+  z-index: 10;
+}
+
+.title-movie {
+  font-size: 18px;
+  width: 200px;
+  height: 76px;
+  line-height: 22px;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  -ms-transition: all 0.4s ease;
+  -webkit-transition: all 0.4s ease;
+}
+
+.title-movie:hover {
+  color: #c3c26c;
+}

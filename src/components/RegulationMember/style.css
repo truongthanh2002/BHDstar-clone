@@ -1,0 +1,54 @@
+.regulation-member {
+  background: url(https://www.bhdstar.vn/wp-content/themes/bhd/assets/images/bg-cinema-10.png)
+    repeat;
+    display: grid;
+    place-items: center;
+    padding-top: 5rem;
+
+}
+.regulation-content-member {
+    background-color: #1c262f;
+    padding: 1rem;
+    max-width: 80%;
+}
+.regulation-content-member h3 {
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.regulation-content-member h3, .regulation-content-member h4{
+    margin: 1rem 0;
+}
+.regulation-content-member p{
+    margin: 0.25rem 0;
+}
+.regulation-content-member a {
+  color: #54ab35;
+  text-decoration: none;
+  font-weight: 600;
+}
+.regulation-content-member a:hover {
+  color: #c4d72f;
+}
+.regulation-content-member img{
+  width: 100%;
+  padding-top: 1rem;
+}
+.regulation-member .list-promotion{
+  background-color: #151515;
+    max-width: 80%;
+    margin: 2rem;
+    border-radius: 5px;
+}
+@media only screen and (max-width: 576px) {
+  .regulation-member{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .regulation-content-member ,.list-promotion{
+max-width: 90%;
+  }
+.title-promotion h3{
+  font-size: 1.2rem;
+}
+}

@@ -1,0 +1,138 @@
+.dashboard {
+  min-height: 100vh;
+  padding-top: 5rem;
+}
+.dashboard table {
+  border: 1px solid #d4dd29;
+  border-collapse: collapse;
+  min-width: 80%;
+  margin: 0 auto;
+}
+.dashboard th,
+.dashboard h1,
+.dashboard-loading h1,
+.title-dashboard button {
+  text-transform: uppercase;
+}
+.dashboard h1,
+.dashboard-security h2,
+.dashboard-loading h1,
+.title-dashboard button {
+  text-align: center;
+  font-weight: 600;
+}
+.dashboard button {
+  border: none;
+  background-color: transparent;
+}
+.dashboard input {
+  color: #f25d3c;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  font-size: 1rem;
+}
+.dashboard span[class^="name"],
+.dashboard span[class^="ranks"] {
+  text-transform: capitalize;
+}
+
+.edit-member,
+.delete-member,
+.update-member,
+.cancel-update {
+  color: #fff;
+  font-size: 1rem;
+  margin-left: 0.25rem;
+}
+.dashboard td,
+.dashboard th {
+  border: 1px solid #d4dd29;
+  text-align: left;
+  padding: 0.25rem 0.25rem 0.25rem 0.5rem;
+}
+td.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.55rem;
+}
+.dashboard select {
+  background-color: #131c23;
+  color: #f25d3c;
+  border: none;
+  min-width: fit-content;
+  min-height: fit-content;
+  font-size: 1rem;
+  outline: none;
+}
+
+.dashboard tr:nth-child(even) {
+  background-color: #54ab35;
+}
+.dashboard-security {
+  padding-top: 5rem;
+}
+.dashboard-security h2 {
+  font-size: 1.5rem;
+}
+.dashboard-security a {
+  color: #54ab35;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.dashboard-security a:hover {
+  color: #fff;
+  border-bottom: 2px solid #54ab35;
+}
+.dashboard-loading {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.title-dashboard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+.title-dashboard button {
+  color: #fff;
+  background-color: #54ab35;
+  min-width: 8rem;
+  min-height: 2rem;
+  font-size: 1rem;
+  border-radius: 0.25rem;
+  box-shadow: 2px 2px 5px #54ab35;
+}
+.title-dashboard button:hover {
+  color: #54ab35;
+  background-color: #fff;
+}
+.cancel-update {
+  margin-right: 0.25rem;
+}
+td.button-delete {
+  text-align: center;
+}
+.table-list {
+  overflow-x: auto;
+}
+@media only screen and (max-width: 576px) {
+  .table-list {
+    padding-bottom: 5rem;
+  }
+  .title-dashboard {
+    justify-content: flex-start;
+    margin-bottom: 2rem;
+  }
+  .dashboard h1 {
+    font-size: 1.4rem;
+  }
+  .button-adduser {
+    margin-left: 1rem;
+  }
+}

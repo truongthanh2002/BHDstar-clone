@@ -1,0 +1,135 @@
+.security-personal{
+    min-height: 100%;
+    background-color: #E8E8E8;
+    color: #111111;
+    padding-bottom: 1rem;
+}
+.security-title{
+    font-size: 2rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 3rem;
+}
+.security-content{
+max-width: 100%;
+display: flex;
+justify-content: flex-start;
+}
+.security-content-left{
+    max-width: 75%;
+    padding: 0 3rem;
+    display: grid;
+    place-items: center;
+}
+.security-content-left .item-text{
+    max-width: 70%;
+    margin: 1rem 0;
+}
+.security-content-left span{
+    font-weight: 600;
+}
+.security-content-left strong{
+    margin-bottom: 1rem;
+    display: block;
+}
+.security-sider-right{
+    max-width: 35%;
+    padding-top: 5rem;
+    padding-right: 5rem;
+}
+ ol.item-text-ul--style > li{
+  list-style-type: decimal;
+  font-weight: 600;
+  margin: 1rem 0;
+}
+
+ol.item-text-ul--style ul > li{
+  list-style: circle;
+  margin-left: 1rem;
+  margin-top: 0.25rem;
+}
+.security-personal .list-cinema {
+    padding: 10px 0 31px;
+    margin-bottom: 21px;
+    background: url(../../assets/images/img-map.jpg);
+  }
+  
+  .security-personal .list-cinema li {
+    max-width: 100%;
+    padding: 8px 25px 8px 17px;
+  }
+  
+  .security-personal .list-cinema .fa {
+    position: absolute;
+    top: 13px;
+    left: 5px;
+    font-size: 27px;
+    color: #fff;
+  }
+  
+  .security-personal .list-cinema li:nth-child(odd) .item--cinema {
+    background: #89c441;
+  }
+  
+  .security-personal .list-cinema li:nth-child(even) .item--cinema {
+    background: #004904;
+  }
+  
+  .security-personal .list-cinema li .item--cinema {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    padding: 15px 0 15px 45px;
+    text-decoration: none;
+    line-height: 25px;
+    color: #e8e8e8;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 6px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+  }
+  
+  .list-cinema li:hover p {
+    cursor: pointer;
+    opacity: 0.8;
+  }
+  .list-cinema span.theater-title{
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+  .security-footer{
+    margin-bottom: 5rem;
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+  }
+  .security-footer .tag--list{
+    font-size: 1.5rem;
+    color: #54AB35;
+  }
+  @media only screen and (max-width: 576px) {
+    .security-content{
+      flex-direction: column;
+    }
+    .security-content-left ,.security-sider-right{
+      max-width: 100%;
+    }
+    .security-content-left{
+      padding: 0 1rem;
+    }
+    .security-content-left .item-text{
+      max-width: 90%;
+    }
+    .security-sider-right{
+      padding-bottom: 3rem;
+      padding-top: 0;
+      padding-right :0
+    }
+    ol.item-text-ul--style ul > li{
+      margin-left: 0;
+    }
+    
+  }
+  

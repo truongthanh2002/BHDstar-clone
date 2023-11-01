@@ -1,0 +1,166 @@
+.movie {
+  height: 100%;
+  background: url(https://www.bhdstar.vn/wp-content/themes/bhd/assets/images/movie-details-bg.jpg)
+    repeat;
+  color: #fff;
+  background-size: cover;
+}
+
+.movie-detail-title {
+  padding: 0rem 2rem 3rem 2rem;
+}
+.movie .container-movie {
+  padding: 5rem 5rem 5rem 7rem;
+}
+.movie h2 {
+  font-size: 1.5rem;
+}
+.movie h2,
+.movie p span.classify {
+  text-transform: uppercase;
+}
+.movie a {
+  color: #fff;
+  text-decoration: none;
+}
+.movie a:hover {
+  color: #c3cc26;
+}
+.movie p {
+  padding: 1.5rem 0;
+  display: flex;
+  justify-content: flex-start;
+  gap: 5rem;
+  width: 100%;
+}
+.movie p.description {
+  color: #a6b2c9;
+}
+.movie p span.classify {
+  font-size: 1.2rem;
+  color: #f8090f;
+}
+.movie h2,
+.movie,
+.movie span {
+  font-weight: 600;
+}
+
+.movie-detail-content {
+  min-width: 100%;
+  display: flex;
+  padding-bottom: 3rem;
+}
+.movie-detail-content--left {
+  width: 30%;
+}
+.movie-detail-content--right {
+  width: 50%;
+}
+.plus-minus {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 0.5rem;
+}
+.submit-order-ticket {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 3rem;
+}
+.submit-order-ticket button {
+  background-color: #54ab35;
+  color: #fff;
+  border: none;
+}
+button.plus,
+button.minus {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 2.5rem;
+  min-height: 2.5rem;
+  font-size: 1rem;
+}
+input.quantity {
+  max-width: 3rem;
+  min-height: 2.5rem;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #54ab35;
+}
+input.quantity {
+  border: none;
+  outline: none;
+  font-size: 1.2rem;
+}
+button.submit-ticket {
+  min-width: 10rem;
+  min-height: 2.5rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  border-radius: 0.25rem;
+}
+.total-order-ticket {
+  padding-top: 1rem;
+}
+.total-order-ticket p {
+  display: block;
+  font-size: 1.5rem;
+}
+.total-order-ticket strong {
+  color: #f8090f;
+  margin-left: 4rem;
+}
+.total-order-ticket sub{
+  position: relative;
+  bottom: 0.5rem;
+  font-size: 1rem;
+  color: #a6b2c9;
+}
+.request-login{
+max-width: 60%;
+min-height: 2rem;
+}
+.request-login h3{
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #fff;
+}
+.request-login a{
+  color: #54ab35;
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 576px) {
+  .movie .container-movie {
+    padding: 0;
+    padding-bottom: 5rem;
+  }
+  .movie-detail-title {
+    padding: 1rem 2rem;
+  }
+  .movie-detail-content {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 0.75rem;
+  }
+  .movie-detail-content--left,
+  .movie-detail-content--right {
+    width: 100%;
+  }
+  .movie p {
+    width: 90%;
+  }
+  .movie p span.classify {
+    font-size: 1rem;
+  }
+  .total-order-ticket p{
+    font-size: 1.2rem;
+  }
+}

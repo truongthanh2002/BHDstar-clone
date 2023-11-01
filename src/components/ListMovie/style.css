@@ -1,0 +1,138 @@
+.list-movie {
+  height: 100%;
+  padding: 1rem 0;
+}
+.list-movie nav {
+  margin-bottom: 1rem;
+}
+.list-movie > nav > ul {
+  margin: 0;
+  list-style: none;
+  padding: 22px 0;
+}
+
+.nav--titles {
+  display: flex;
+  justify-content: center;
+}
+
+.nav--titles li {
+  text-transform: uppercase;
+  margin: 0 10px;
+  font-size: 1.5rem;
+  font-weight: 300;
+  transition: 0.4s ease all;
+  -moz-transition: 0.4s ease all;
+  -o-transition: 0.4s ease all;
+  -ms-transition: 0.4s ease all;
+  -webkit-transition: 0.4s ease all;
+}
+
+.nav--titles h3 {
+  text-decoration: none;
+  margin: 20px 6px 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.4s ease all;
+  -moz-transition: 0.4s ease all;
+  -o-transition: 0.4s ease all;
+  -ms-transition: 0.4s ease all;
+  -webkit-transition: 0.4s ease all;
+}
+
+.nav--titles h3:hover {
+  color: #d4dd29;
+  border-bottom: 1px solid #d4dd29;
+}
+.active-link {
+  color: #d4dd29;
+  border-bottom: 1px solid #d4dd29;
+}
+.list-movie .card {
+  display: flex !important;
+  flex-direction: column;
+  height: 70vh;
+}
+
+.list-movie .card .card-top {
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.list-movie .card .card-bottom {
+  height: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.list-movie .card .card-top img {
+  height: 100%;
+}
+
+.list-movie .card .card-top .title-movie {
+  height: 20%;
+  padding-top: 1.5rem;
+}
+
+.list-movie button span {
+  text-transform: uppercase;
+  padding: 0 0.25rem;
+  font-weight: 600;
+}
+.list-movie .slick-prev,
+.list-movie .slick-next {
+  top: 24rem;
+}
+
+.list-movie .slick-prev::before,
+.list-movie .slick-next::before {
+  font-size: 2.2rem;
+}
+.list-movie button.slick-prev {
+  left: 0;
+}
+.list-movie button.slick-next {
+  right: 0;
+  padding-right: 2rem;
+}
+
+button.btn-antd {
+  border: none;
+  color: #fff;
+  background-color: #45ab3c;
+  width: 100%;
+  height: 45px;
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  line-height: 45px;
+  font-weight: 700;
+  transition: 0.4s ease all;
+  text-decoration: none;
+}
+
+.btn-antd:hover {
+  color: #45ab3c;
+  background: url(../../assets/images/bg-btn-green-hover.jpg) repeat;
+}
+
+.btn-antd svg {
+  margin-right: 0.5rem;
+  font-size: 1.2rem;
+}
+@media only screen and (max-width: 576px) {
+  li.presaleticket {
+    display: none;
+  }
+  .nav--titles h3 {
+    font-size: 1.2rem;
+    margin: 0;
+  }
+}

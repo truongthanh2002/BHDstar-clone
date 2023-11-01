@@ -1,0 +1,112 @@
+.add_user{
+    min-height: 100vh;
+    max-width: 100%;
+    padding-bottom: 30vh;
+}
+.add_user h1 {
+    padding-bottom: 2rem;
+}
+.add_user button.cancel-add_user{
+    background-color: #F1F2F2;
+    color: #131c23;
+    box-shadow: 1px 1px 3px #F1F2F2;
+}
+.add_user button.cancel-add_user:hover{
+    background-color: #5D6565;
+    color: #fff;
+}
+.add_user--button{
+    display: flex;
+    gap: 2rem;
+    justify-content: flex-end;
+    align-items: center;
+    padding-top: 2rem;
+    padding-right: 5rem;
+}
+.add_user button {
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #54ab35;
+    min-width: 8rem;
+    min-height: 2rem;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+    box-shadow: 2px 2px 5px #54ab35;
+    
+  }
+  .add_user button:hover {
+    color: #54ab35;
+    background-color: #fff;
+  }
+  button.add_new_user{
+    min-width: 12rem;
+  }
+.form_add_user{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    max-width: 50%;
+    margin: 0 auto;
+}
+.form_add_user .provinces{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.provinces label:first-child{
+    display: none;
+}
+.form_add_user label{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.form_add_user span , .provinces label{
+    text-transform: capitalize;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #fff;
+}
+.form_add_user input ,.form_add_user select{
+    min-width: 20rem;
+    background-color: #F0F0F0;
+    color: #131c23;
+    min-height: 2rem;
+    padding: 0 0.5rem;
+    margin-right: 5rem;
+    border-radius: 0.25rem;
+}
+.provinces label{
+    display: flex;
+}
+#add_user-fistname , #add_user-lastname{
+    text-transform: capitalize;
+}
+@media only screen and (max-width: 576px){
+.form_add_user{
+    max-width: 100%;
+}
+.form_add_user input, .form_add_user select{
+    min-width: 10rem;
+    margin-right: 1rem;
+}
+.form_add_user label{
+    max-width: 100%;
+}
+.form_add_user span {
+    max-width: 50%;
+}
+.form_add_user span ,.provinces label{
+    margin-left: 1rem;
+}
+.add_user--button{
+padding: 0;
+justify-content: center;
+}
+button.add_new_user{
+    min-width: 8rem;
+}
+}

@@ -1,0 +1,24 @@
+.section--member {
+  position: relative;
+  padding: 32px 0 30px;
+  background: url(../../assets/images/bg-member.jpg) fixed repeat;
+  font-size: 21px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.section--product-view {
+  background: url(../../assets/images/movie-details-bg.jpg) fixed repeat;
+}
+.home-page {
+  background: url(../../assets/images/movie-details-bg.jpg) fixed repeat;
+}
+
+.section--promotion {
+  background: url(../../assets/images/bg-home-02.jpg) repeat-x;
+  background-size: 100% 100%;
+}
+
+.background-white {
+  background-color: #fff;
+}

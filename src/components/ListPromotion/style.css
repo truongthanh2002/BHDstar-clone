@@ -1,0 +1,25 @@
+.list-promotion {
+  /* padding: 2rem 0rem; */
+}
+.list-promotion ul {
+  list-style: none;
+  padding: 22px 0;
+}
+
+.title-promotion {
+  display: flex;
+  justify-content: center;
+}
+
+.title-promotion h3 {
+  text-transform: uppercase;
+  margin: 0 10px;
+  font-size: 28px;
+  line-height: 40px;
+  font-weight: 900;
+}
+
+.active-promo {
+  color: #bcdc95;
+  border-bottom: 1px solid #bcdc95;
+}

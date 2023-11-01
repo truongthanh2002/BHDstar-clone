@@ -1,0 +1,34 @@
+.error{
+    padding: 8rem 8rem 5rem 8rem;
+}
+.error p{
+    font-weight: 600;
+    margin: 0.5rem 0;
+}
+
+.text-title{
+    font-size: 4rem;
+}
+img.img-logo_bhd{
+    width: 15rem;
+}
+button.error-button{
+    color: #fff;
+    background: #54AB35;
+    font-size: 0.9rem;
+    border: none;
+    margin-top: 1rem;
+    width: 5rem;
+    height: 2rem;
+}
+.error-link{
+    text-decoration: none;
+}
+.pathname ,.error-link{
+    color: #D5DD29;
+}
+.box-error{
+    padding-bottom: 3rem;
+    border-bottom: 2px solid #343434;
+}
+

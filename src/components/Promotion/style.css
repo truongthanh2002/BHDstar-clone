@@ -1,0 +1,82 @@
+.slick-track {
+  margin-bottom: 42px;
+}
+
+.img--promo img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* the slides */
+.slick-slider {
+  margin: 0 40px;
+}
+
+.slick-slide > div {
+  margin: 0 12px;
+}
+
+/* the parent */
+.slick-list {
+  margin: 0 -12px;
+}
+
+/* slick dót */
+
+.slick-dots {
+  background: none;
+}
+
+.button__bar {
+  display: inline-block;
+  vertical-align: middle;
+  margin: auto;
+  padding: 0;
+
+  border-radius: 40px;
+  width: 70px;
+  text-align: center;
+}
+
+.button__bar li {
+  list-style: none;
+  cursor: pointer;
+  display: inline-block;
+  margin: 0 3px;
+  padding: 0;
+}
+
+.button__bar li button {
+  border: none;
+  background: #d7d7d7;
+  color: transparent;
+  cursor: pointer;
+  display: block;
+  height: 15px;
+  width: 15px;
+  border-radius: 7.5px;
+}
+
+.button__bar li.slick-active button {
+  background-color: #45ab3c;
+}
+
+.button__bar li button:hover,
+.button__bar li button:focus {
+  background: #45ab3c;
+  outline: 0;
+}
+
+.slick-slide img {
+  display: block;
+  margin: auto;
+}
+
+.promotion {
+  max-width: 1170px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}

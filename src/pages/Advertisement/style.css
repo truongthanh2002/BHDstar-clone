@@ -1,0 +1,151 @@
+.page--wrapper {
+  background: #e8e8e8;
+  padding: 21px 0 127px;
+}
+
+.about--us-title {
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 26px;
+  color: #111111;
+}
+
+.about--us-content {
+  float: left;
+  width: 590px;
+  padding-top: 10px;
+}
+
+.about--us-content .text--content {
+  padding-top: 5px;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  color: #060606;
+}
+
+.about--us-content .text--content p {
+  padding-bottom: 21px;
+}
+
+.text--content ul {
+  list-style-type: disc;
+}
+
+.text--content ul,
+.text--content ol {
+  padding-left: 15px;
+}
+
+.about--us-content .tag--list {
+  float: left;
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+  font-size: 16px;
+}
+
+.about--us-content .tag--list .fa-tags {
+  color: #45b23e;
+  font-size: 20px;
+  padding-right: 13px;
+}
+
+.fa-tags::before {
+  content: " \f02c";
+}
+
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.about--us-content .button--share {
+  float: right;
+}
+
+.btn--fb-share {
+  background: #3b5998;
+}
+
+.btn--fb-share .fa-facebook {
+  position: absolute;
+  top: 7px;
+  left: 5px;
+  font-size: 20px;
+}
+
+.fa-facebook-f::before .fa-facebook::before {
+  content: "\f09a";
+}
+
+/* About Us Sidebar */
+
+.about--us-sidebar {
+  float: right;
+  width: 270px;
+  padding-top: 60px;
+}
+
+.about--us-sidebar .list-cinema {
+  padding: 10px 0 31px;
+  margin-bottom: 21px;
+  background: url(../../assets/images/img-map.jpg);
+}
+
+.about--us-sidebar .list-cinema li {
+  max-width: 100%;
+  padding: 8px 25px 8px 17px;
+}
+
+.about--us-sidebar .list-cinema .fa {
+  position: absolute;
+  top: 13px;
+  left: 5px;
+  font-size: 27px;
+  color: #fff;
+}
+
+.about--us-sidebar .list-cinema li:nth-child(odd) .item--cinema {
+  background: #89c441;
+}
+
+.about--us-sidebar .list-cinema li:nth-child(even) .item--cinema {
+  background: #004904;
+}
+
+.about--us-sidebar .list-cinema li .item--cinema {
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  padding: 15px 0 15px 45px;
+  text-decoration: none;
+  line-height: 25px;
+  color: #e8e8e8;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 6px;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+}
+
+.list-cinema li:hover p {
+  cursor: pointer;
+  opacity: 0.8;
+}
+.list-cinema span.theater-title{
+  text-transform: uppercase;
+  font-weight: 600;
+}
+@media only screen and (max-width: 576px) {
+  .about--us-content  {
+     max-width: 100%;
+  }
+  .about--us-sidebar{
+    width: 100%;
+  }
+}

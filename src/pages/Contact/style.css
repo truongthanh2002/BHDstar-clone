@@ -1,0 +1,21 @@
+.about--us-content .content--title {
+    font-size: 22px;
+    color: #020202;
+    font-weight: 700;
+  }
+  
+  .about--us-content .date {
+    font-size: 16px;
+    font-weight: 500;
+    color: #5f6f88;
+  }
+  
+  .about--us-content .text--content .aligncenter {
+    margin: 0 auto 20px;
+  }
+  
+  .about--us-content .text--content img {
+    max-width: 100%;
+    height: auto;
+  }
+  

@@ -1,0 +1,126 @@
+.rules{
+    min-height: 100%;
+    background-color: #E8E8E8;
+    color: #111111;
+    padding-bottom: 1rem;
+}
+.rule-title{
+    font-size: 2rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 3rem;
+}
+.rule-content{
+max-width: 100%;
+display: flex;
+justify-content: flex-start;
+}
+.rule-content-left{
+    max-width: 75%;
+    padding: 0 3rem;
+    display: grid;
+    place-items: center;
+}
+.rule-content-left .item-text{
+    max-width: 70%;
+    margin: 1rem 0;
+}
+.rule-content-left span{
+    font-weight: 600;
+}
+.rule-content-left strong{
+    margin-bottom: 1rem;
+    display: block;
+}
+.rule-sider-right{
+    max-width: 35%;
+    padding-top: 5rem;
+    padding-right: 5rem;
+}
+ul.item-text-ul--style{
+  margin-left: 1.2rem;
+}
+ul.item-text-ul--style > li{
+  list-style: disc;
+}
+.rules .list-cinema {
+    padding: 10px 0 31px;
+    margin-bottom: 21px;
+    background: url(../../assets/images/img-map.jpg);
+  }
+  
+  .rules .list-cinema li {
+    max-width: 100%;
+    padding: 8px 25px 8px 17px;
+  }
+  
+  .rules .list-cinema .fa {
+    position: absolute;
+    top: 13px;
+    left: 5px;
+    font-size: 27px;
+    color: #fff;
+  }
+  
+  .rules .list-cinema li:nth-child(odd) .item--cinema {
+    background: #89c441;
+  }
+  
+  .rules .list-cinema li:nth-child(even) .item--cinema {
+    background: #004904;
+  }
+  
+  .rules .list-cinema li .item--cinema {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    padding: 15px 0 15px 45px;
+    text-decoration: none;
+    line-height: 25px;
+    color: #e8e8e8;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 6px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+  }
+  
+  .list-cinema li:hover p {
+    cursor: pointer;
+    opacity: 0.8;
+  }
+  .list-cinema span.theater-title{
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+  .rule-footer{
+    margin-bottom: 5rem;
+    display: flex;
+    justify-content: space-around;
+   
+  }
+  .rule-footer .tag--list{
+    font-size: 1.5rem;
+    color: #54AB35;
+    margin-left: -13rem;
+  }
+  @media only screen and (max-width: 576px) {
+    .rules .rule-content{
+      flex-direction: column;
+    }
+    .rule-content-left .item-text {
+      max-width: 90%;
+    }
+    .rule-content-left , .rule-sider-right{
+      max-width: 100%;
+      padding: 0;
+    }
+    .rule-footer {
+      justify-content: space-between;
+      padding: 0 0.75rem;
+    }
+    .rule-footer .tag--list {
+      margin-left: 0;
+    }
+  }
